@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Inject",
+        "repositoryURL": "https://github.com/illescasDaniel/Inject-Swift.git",
+        "state": {
+          "branch": null,
+          "revision": "7c558a54ffebfec69e59d501c0bac54506e2af58",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
