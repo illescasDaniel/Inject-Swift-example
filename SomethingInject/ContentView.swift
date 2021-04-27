@@ -25,16 +25,16 @@ struct ContentView: View {
 		self.$authentication = authentication
 	}
 	
-    var body: some View {
+	var body: some View {
 		VStack {
 			Text(userRepository.fetch())
 			Text(authentication.loggedUser ?? "nil")
 		}
-    }
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(userRepository: nil, authentication: nil)
-    }
+	static var previews: some View {
+		ContentView(userRepository: nil, authentication: nil)
+	}
 }
